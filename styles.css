@@ -1,0 +1,48 @@
+/* Style the navbar */
+
+nav ul {
+    /* flex will display list widely */
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+  
+    /*padding for border and content */
+    padding: 12px 0px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Style the content sections */
+  .content {
+    display: none;
+    margin: 20px;
+  }
+  .content ul{
+    text-align: justify;
+  }
+  .content ol{
+    text-align: justify;
+  }
+  .content h2{
+    text-align: justify;
+    font-size: medium;
+    text-decoration: underline;
+  }
+  .content h3{
+    text-align: justify;
+    font-size: medium;
+    text-decoration: underline;
+  }
+  .content p{
+    text-align: justify;
+    font-size: medium;
+  }
+  
+  /* Style the active content section */
+  :target {
+    display: block;
+  }
